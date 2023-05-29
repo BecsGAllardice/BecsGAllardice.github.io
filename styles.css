@@ -1,6 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 
+/*home page Emma's section*/
 .links {
     background-color: black;
     padding: 50px 10px;
@@ -63,7 +64,7 @@ a:link {
     width:100%;
 }
 
-/*About Section */
+/*About Becs' Section */
 
 .about-container {
     position: relative;
@@ -96,7 +97,7 @@ h2 {
     font-size: 2em;
 }
 
-/* location */
+/* location Becs' section*/
 
 .location-container {
   display: flex;
@@ -136,7 +137,7 @@ h2 {
    }
  }
 
-/*Menu*/
+/*Menu Coco's section*/
 
 
 .separator {
@@ -245,7 +246,7 @@ h2 {
     font-size: 50px;
   }
 
-/*reservation*/
+/*reservation Emma's section*/
   #reservation {
     font-size: 20px;
     color:#fffff3;
@@ -297,7 +298,7 @@ h2 {
      justify-content: right;
   }
 }
-/*contact*/
+/*contact Becs section*/
 
 .row {
     background-color: black;
