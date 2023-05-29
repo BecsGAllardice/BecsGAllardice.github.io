@@ -12,6 +12,7 @@
     top: 0;
     width: 100%;
     transition: 0.2s;
+    z-index: 10;
   }
 
 
@@ -21,6 +22,7 @@ body {
     margin: 0;
     background-size: 100%;
     font-family: 'Ubuntu', sans-serif;
+
 }
 
 
@@ -61,19 +63,26 @@ a:link {
     width:100%;
 }
 
+/*About Section */
+
 .about-container {
     position: relative;
     text-align: center;
     color: #fffff3;
 }
 
-/*About Section */
+
 .centered {
     position: absolute;
     font-size: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    text-align:center;
+    max-width: 1000px;
+   
 }
 h1 {
     color: #ef2917;
@@ -91,6 +100,7 @@ h2 {
 
 .location-container {
   display: flex;
+  text-align:center;
 }
 
 .text {
@@ -99,20 +109,22 @@ h2 {
    float: left;
    padding-left: 50px;
    color:#fffff3;
+   font-size: 1.5em;
 }
 
 .image {
    display : flex;
    justify-content: flex-end;
    align-items: center;
-   padding-right: 60px;
-   padding-bottom: 50px;
-   padding-top: 15px;
+   
 }
 
 .image img {
    max-width: 100%;
    height: auto;
+   padding-right: 60px;
+   padding-bottom: 50px;
+   padding-top: 100px;
 }
 @media (max-width: 900px) {
    .container {
@@ -233,7 +245,7 @@ h2 {
     font-size: 50px;
   }
 
-
+/*reservation*/
   #reservation {
     font-size: 20px;
     color:#fffff3;
@@ -241,9 +253,12 @@ h2 {
   }
 
 
-p {
+#reservation_text{
     color:#fffff3;
+    padding-left: 300px;
 }
+
+
 
 
 .name{
@@ -251,20 +266,37 @@ p {
 }
 
 
+
 .pizza {
+  display: flex;
   padding: 0;
   padding-bottom: 0;
   padding-top: -10px;
+  justify-content: right;
+  align-items: right;
+
   }
 
-
 .pizza img {
-  max-width: auto;
+  max-width: 500;
   width:30%;
   height:auto;
-  position:absolute; right:80px; top:3550px;
+  max-width: 100%;
+  height: auto;
+  float:right;
+  
+ 
+ 
 }
-
+@media (max-width: 900px) {
+  .pizza {
+    flex-direction: column;
+  }
+   .pizza img {
+     padding-top: 20px;
+     justify-content: right;
+  }
+}
 /*contact*/
 
 .row {
